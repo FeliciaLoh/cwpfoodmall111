@@ -1,12 +1,9 @@
-# Food Directories
+[README.md](https://github.com/user-attachments/files/31051020/README.md)
+# Causeway Point — Food Directory
 
-Two static HTML prototypes:
+A single-page food directory for Causeway Point, styled like a mall directory board: floor filters (B1, 02, 03, 04), split-flap unit tags, search, halal toggle, and a spin-the-wheel picker.
 
-- `index.html` — landing page linking to both
-- `causeway-point.html` — mall directory board for Causeway Point (floor filters, split-flap unit tags, halal toggle, spin-the-wheel picker)
-- `woodlands-738094.html` — neighbourhood eatery guide near Woodlands Drive 72 / postal code 738094 (category filters, distance sort, spin-the-wheel picker)
-
-No build step, no dependencies — plain HTML/CSS/JS.
+No build step, no dependencies — plain HTML/CSS/JS in `index.html`.
 
 ## Deploy: GitHub → Vercel
 
@@ -28,13 +25,10 @@ No build step, no dependencies — plain HTML/CSS/JS.
 2. **Import into Vercel**
    - Go to [vercel.com/new](https://vercel.com/new) and sign in with GitHub.
    - Select the repo you just pushed.
-   - Framework preset: choose **Other** (it's a plain static site — no build command, no output directory needed).
+   - Framework preset: choose **Other** (plain static site — no build command, no output directory needed).
    - Click **Deploy**.
 
 3. **Done**
    - Vercel gives you a live URL like `your-project.vercel.app`.
-   - `/` → landing page
-   - `/causeway-point` → Causeway Point directory
-   - `/woodlands-738094` → Woodlands directory
 
 Every future `git push` to `main` auto-redeploys.
